@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Routes, Route, Link, useNavigate } from "react-router-dom";
 
-const API = import.meta.env.VITE_API_BASE;
+const API = "https://video-streaming-platform-pecb.onrender.com";
 
 function HomePage() {
   const [videos, setVideos] = useState([]);
