@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css"; // CSS dosyasını import ediyoruz
 
 export default function Footer() {
@@ -9,7 +10,7 @@ export default function Footer() {
 
         <nav className="footer-links">
           <a href="/">Home</a>
-          <a href="/admin">Admin</a>
+          <a><Link to={"/admin"}>Admin</Link></a>
           <a href="https://github.com/karhanburak" target="_blank" rel="noreferrer">
             GitHub
           </a>
