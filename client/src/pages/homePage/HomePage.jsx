@@ -30,7 +30,21 @@ export function HomePage({ API }) {
         </div>
         {
           videos.length === 0
-            ? <div className="no-video-card">There is no any videos to be shown &#9888;</div>
+            ? (
+              <div className="no-video-card">
+                <p>⚠️ No videos available at the moment.</p>
+                <p>
+                  You can still watch the video on{" "}
+                  <a
+                    href="https://youtu.be/5Yc_4B5Xjjc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube
+                  </a>.
+                </p>
+              </div>
+            )
             : videos.map(v => (
               <div className="video-card" key={v.id}>
                 <h3>{v.originalname}</h3>

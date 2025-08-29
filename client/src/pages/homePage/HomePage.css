@@ -85,6 +85,11 @@
   align-items: center;
 }
 
+.no-video-card a {
+  color: #0077ff;
+  text-decoration: underline;
+}
+
 /* Video kartları */
 .video-card {
   background: #fafafa;
