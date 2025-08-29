@@ -6,7 +6,7 @@ const cors = require("cors");
 const { v4: uuidv4 } = require("crypto"); // node 18+ için: use crypto.randomUUID() alternatively
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 const UPLOAD_DIR = path.join(__dirname, "uploads");
 const DB_FILE = path.join(__dirname, "videos.json");
 const jwt = require("jsonwebtoken");
