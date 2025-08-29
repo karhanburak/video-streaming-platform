@@ -15,8 +15,19 @@ export function HomePage({ API }) {
   return (
     <>
       <div className="home-container">
-        <h1>Video Mini</h1>
-        <Link className="admin-link" to="/admin">Admin Panel</Link>
+        <div className="title">
+          <div className="left-part"></div>
+          <h1>Motivation Video</h1>
+          <img src="/public/logo-lely-original.svg" alt="img not found" />
+        </div>
+        <div className="details-wrapper">
+          <h3>Application Details</h3>
+          <ul className="interview-details">
+            <li><span>Interviewee:</span> Ahmet Burak Karhan</li>
+            <li><span>Position:</span> Junior Manuel Test Engineer</li>
+            <li><span>Date:</span> 29th August, 2025</li>
+          </ul>
+        </div>
         {
           videos.length === 0
             ? <div className="no-video-card">There is no any videos to be shown &#9888;</div>

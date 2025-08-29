@@ -10,12 +10,54 @@
 }
 
 /* Başlık */
-.home-container h1 {
+.home-container .title {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-container .title .left-part {
+  width: 200px;
+}
+
+.home-container .title  h1 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 26px;
   text-align: center;
   margin-bottom: 20px;
   color: #852bbc;
+}
+
+.home-container .title img {
+  margin-left: 5rem;
+}
+
+.home-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #63516f;
+}
+
+/* Details Wrapper */
+.home-container .details-wrapper h3 {
+  font-weight: 200;
+  margin-bottom: 0px;
+  margin-left: 1rem;
   text-decoration: underline;
+}
+
+.interview-details {
+  margin-top: 5px;
+}
+
+.home-container .details-wrapper li {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style-type: square;
+}
+
+.home-container .details-wrapper li span {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: #914abd;
 }
 
 /* Admin Panel linki */

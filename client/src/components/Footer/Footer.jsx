@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="name-field">
-        Developed by <span className="full-name"> Ahmet Burak Karhan </span>
+        This streaming platform was developed by <span className="full-name"> Ahmet Burak Karhan </span> as a unique way to share his motivation video with the Lely hiring team.
       </div>
     </footer>
   );
