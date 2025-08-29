@@ -18,7 +18,7 @@ export function HomePage({ API }) {
         <div className="title">
           <div className="left-part"></div>
           <h1>Motivation Video</h1>
-          <img src="/public/logo-lely-original.svg" alt="img not found" />
+          <img src="/logo-lely-original.svg" alt="img not found" />
         </div>
         <div className="details-wrapper">
           <h3>Application Details</h3>
