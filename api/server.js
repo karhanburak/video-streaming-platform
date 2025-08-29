@@ -12,9 +12,9 @@ const DB_FILE = path.join(__dirname, "videos.json");
 const jwt = require("jsonwebtoken");
 
 // Basit admin bilgileri (gerçekte env kullan)
-const ADMIN_USER = process.env.ADMIN_USER || "admin";
-const ADMIN_PASS = process.env.ADMIN_PASS || "1234";
-const JWT_SECRET = process.env.JWT_SECRET || "supersecret";
+const ADMIN_USER = process.env.ADMIN_USER;
+const ADMIN_PASS = process.env.ADMIN_PASS;
+const JWT_SECRET = process.env.JWT_SECRET;
 
 // Middleware: JWT doğrulama
 function authMiddleware(req, res, next) {
